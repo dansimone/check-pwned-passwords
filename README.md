@@ -18,7 +18,7 @@ Launch:
 python check_pwned_passwords.py
 ```
 
-And enter a password (obfuscating) into the prompt:
+And enter a password (obfuscated) into the prompt:
 ```
 Password:
 ```
