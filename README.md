@@ -28,5 +28,5 @@ The tool will continually prompt for passwords until Ctrl-C is entered.
 ## Notes
 
 * The passwords provided to the tool do not leave the local Python process.
-* Only the SHA1 hash (actually the first 5 digits of it _only_, per the https://haveibeenpwned.com API) of the password 
-are sent to https://haveibeenpwned.com for verification.
+* Only the SHA1 hash (actually the first 5 characters _only_, per the https://haveibeenpwned.com API) of the password 
+  is sent to https://haveibeenpwned.com for verification.
