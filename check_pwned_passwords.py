@@ -2,6 +2,7 @@ import hashlib
 import requests
 import getpass
 import argparse
+import emoji
 
 PWNED_BASE_URL = 'https://api.pwnedpasswords.com/range'
 
@@ -18,9 +19,9 @@ if __name__ == "__main__":
     try:
         while True:
             if is_password_pwned(getpass.getpass(prompt='Password: ', stream=None)):
-                print 'Password has been pwned...  Change it if you haven\'t already!'
+                print(emoji.emojize(':fearful_face: Password has been compromised!!!  Change it if you haven\'t already!!!'))
             else:
-                print 'Password has not been pwned (as far as we know)'
+                print (emoji.emojize(':thumbs_up: Password has not been compromised (as far as we know).'))
     except KeyboardInterrupt:
         pass
 

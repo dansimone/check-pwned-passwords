@@ -1,4 +1,4 @@
-# Interactive Script to Verify whether Passwords have been comprised
+# Interactive Script to Check if Passwords have been Compromised
 
 This tool uses the https://haveibeenpwned.com API to check if given passwords are included in the list of
 known compromises.

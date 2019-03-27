@@ -1,3 +1,4 @@
 hashlib
 requests
 argparse
+emoji
