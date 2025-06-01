@@ -8,7 +8,7 @@ PWNED_BASE_URL = 'https://api.pwnedpasswords.com/range'
 
 def is_password_pwned(password):
     h = hashlib.sha1()
-    h.update(password)
+    h.update(password.encode('utf-8'))
     hash = h.hexdigest()
     r = requests.get('%s/%s' % (PWNED_BASE_URL, hash[:5]))
     return hash[5:].upper() in r.text

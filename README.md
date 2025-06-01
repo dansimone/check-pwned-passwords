@@ -4,7 +4,7 @@ This tool uses the https://haveibeenpwned.com API to check if given passwords ar
 known compromises.
 
 ## Prerequisites
-- Install [Python](https://www.python.org/downloads) 2.7 or later.
+- Install [Python](https://www.python.org/downloads) 3.
 - Install required Python packages:
 
 ```
